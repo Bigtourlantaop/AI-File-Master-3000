@@ -1,0 +1,7 @@
+streamlit
+pandas
+plotly
+pillow
+google-generativeai
+pyyaml
+streamlit-authenticator

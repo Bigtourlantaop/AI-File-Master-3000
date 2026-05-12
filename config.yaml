@@ -1,0 +1,17 @@
+credentials:
+  usernames:
+    khetsophon:
+      email: khet@example.com
+      name: Khetsophon Chaosuep
+      password: $2b$12$zYy1gTGUxNrEq1fe4W/WbOHHfk37nqFz7ts54n3cyyi95ns/9xura
+    guest:
+      email: guest@example.com
+      name: Guest User
+      password: $2b$12$zYy1gTGUxNrEq1fe4W/WbOHHfk37nqFz7ts54n3cyyi95ns/9xura
+cookie:
+  expiry_days: 30
+  key: some_signature_key
+  name: some_cookie_name
+preauthorized:
+  emails:
+    - melsby@gmail.com
