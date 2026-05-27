@@ -3,6 +3,8 @@ import os
 from PIL import Image
 import ai_engine
 import file_utils
+from styles import apply_custom_css
+apply_custom_css()
 
 # 🔒 ระบบป้องกัน: เช็คว่า Login หรือยัง
 if not st.session_state.get('authentication_status'):

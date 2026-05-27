@@ -1,15 +1,6 @@
 [theme]
-# สีหลักของแอป (เช่น สีปุ่ม, สีไฮไลท์) เปลี่ยนเป็นสีน้ำเงินพรีเมียม
-primaryColor = "#4A90E2"
-
-# สีพื้นหลังหลัก (ปรับให้เป็นสีเทาอ่อนๆ สบายตา ไม่สว่างจ้าเกินไป)
-backgroundColor = "#F8F9FA"
-
-# สีพื้นหลังรอง (เช่น แถบ Sidebar ทางซ้าย)
+primaryColor = "#2563EB"
+backgroundColor = "#F8FAFC"
 secondaryBackgroundColor = "#FFFFFF"
-
-# สีตัวอักษร
-textColor = "#2C3E50"
-
-# ฟอนต์ (เลือกแบบไม่มีหัว ดูทันสมัย)
+textColor = "#0F172A"
 font = "sans serif"

@@ -2,6 +2,8 @@ import streamlit as st
 import file_utils
 import ai_engine
 import os
+from styles import apply_custom_css
+apply_custom_css()
 
 # 🔒 เช็คระบบ Login
 if not st.session_state.get('authentication_status'):

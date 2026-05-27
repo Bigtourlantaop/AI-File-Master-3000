@@ -3,6 +3,8 @@ import yaml
 from yaml.loader import SafeLoader
 import streamlit_authenticator as stauth
 import file_utils
+from styles import apply_custom_css
+apply_custom_css()
 
 # --- 1. ตั้งค่าหน้าเว็บ ---
 st.set_page_config(page_title="AI File Master 3000", page_icon="🤖", layout="wide")

@@ -1,6 +1,8 @@
 import streamlit as st
 import os
 import file_utils
+from styles import apply_custom_css
+apply_custom_css()
 
 if not st.session_state.get('authentication_status'):
     st.warning("🔒 กรุณาเข้าสู่ระบบที่หน้าหลัก (app.py) ก่อนใช้งานครับ")
